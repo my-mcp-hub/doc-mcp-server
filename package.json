@@ -1,5 +1,5 @@
 {
-  "name": "doc-mcp-server",
+  "name": "@my-mcp-hub/doc-mcp-server",
   "version": "0.0.1",
   "description": "MCP Server Template For Node.js",
   "author": "zhensherlock",
