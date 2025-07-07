@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'my-mcp-hub/node-mcp-server'
+    if: github.repository == 'my-mcp-hub/doc-mcp-server'
     runs-on: ubuntu-latest
     permissions:
       contents: read
