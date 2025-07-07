@@ -1,5 +1,5 @@
 {
-  "name": "node-mcp-server",
+  "name": "doc-mcp-server",
   "version": "0.0.1",
   "description": "MCP Server Template For Node.js",
   "author": "zhensherlock",
@@ -26,9 +26,12 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.3",
+    "algoliasearch": "^5.30.0",
+    "cheerio": "^1.1.0",
     "cors": "^2.8.5",
     "dotenv": "^17.0.1",
     "express": "^5.1.0",
+    "html-to-md": "^0.8.8",
     "nanoid": "^5.1.5",
     "node-fetch": "^3.3.2",
     "yargs": "^17.7.2",
