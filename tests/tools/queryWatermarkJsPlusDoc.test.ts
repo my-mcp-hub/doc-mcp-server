@@ -9,6 +9,6 @@ describe('queryWatermarkJsPlusDoc', () => {
   }, 20000)
 
   test('returns a "not found" response for an unrecognized input', async () => {
-    expect((await queryWatermarkJsPlusDoc('React', options)).length).toEqual(0)
+    expect((await queryWatermarkJsPlusDoc('ESLint', options)).length).toEqual(0)
   }, 20000)
 })
