@@ -21,6 +21,28 @@ export async function searchAlgolia(params: SearchAlgoliaParamsType) {
       {
         indexName: params.indexName,
         query: params.query,
+        attributesToRetrieve: [
+          'hierarchy.lvl0',
+          'hierarchy.lvl1',
+          'hierarchy.lvl2',
+          'hierarchy.lvl3',
+          'hierarchy.lvl4',
+          'hierarchy.lvl5',
+          'hierarchy.lvl6',
+          'content',
+          'url',
+        ],
+        attributesToSnippet: [
+          'hierarchy.lvl1:10',
+          'hierarchy.lvl2:10',
+          'hierarchy.lvl3:10',
+          'hierarchy.lvl4:10',
+          'hierarchy.lvl5:10',
+          'hierarchy.lvl6:10',
+          'content:10',
+        ],
+        snippetEllipsisText: '…',
+        hitsPerPage: 2,
       },
     ],
   })) as { results: SearchResponse<DocSearchHitType>[] }
