@@ -74,6 +74,7 @@ const after = async result => {
       env: {
         ...process.env,
         DANGEROUSLY_OMIT_AUTH: true,
+        MCP_AUTO_OPEN_ENABLED: false,
       },
     })
 
