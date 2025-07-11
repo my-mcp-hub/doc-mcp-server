@@ -4,11 +4,16 @@ import html2md from 'html-to-md'
 import type { ArgumentsCamelCase } from 'yargs'
 import type { DocSearchHitType, OptionsType, SearchAlgoliaParamsType } from '@/types'
 
-export function getOptions(argv: ArgumentsCamelCase) {
+export function getOptions(
+  argv: ArgumentsCamelCase,
+  pkg: {
+    name: string
+    version: string
+  },
+) {
   return {
-    url: argv.url,
-    key: argv.key,
-    secretKey: argv.secret_key,
+    name: pkg.name,
+    version: pkg.version,
     port: argv.port,
   } as OptionsType
 }
