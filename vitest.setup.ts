@@ -11,7 +11,7 @@ const serverParams = new StdioClientTransport({
   },
 })
 const client = new Client({
-  name: 'node-mcp-client',
+  name: 'doc-mcp-client',
   version: '1.0.0',
 })
 await client.connect(serverParams)
