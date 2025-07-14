@@ -1,7 +1,7 @@
 {
   "name": "@my-mcp-hub/doc-mcp-server",
   "version": "0.0.2",
-  "description": "A doc MCP Server",
+  "description": "A doc mcp server",
   "author": "zhensherlock",
   "type": "module",
   "license": "MIT",
