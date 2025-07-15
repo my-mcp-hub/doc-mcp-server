@@ -6,6 +6,7 @@ export default defineConfig({
       '@': '/src',
     },
     setupFiles: ['./vitest.setup.ts'],
+    globalSetup: ['./vitest.global.ts'],
     coverage: {
       include: ['src/**/*.ts'],
     },

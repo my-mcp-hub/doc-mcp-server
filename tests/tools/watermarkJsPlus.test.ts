@@ -10,7 +10,7 @@ describe('watermarkJsPlusDocTool', () => {
     })) as { content: unknown[] }
 
     expect(res.content.length).toBeGreaterThan(0)
-  }, 20000)
+  })
 
   test('returns a "not found" response for an unrecognized input', async () => {
     const res = (await global.client.callTool({
@@ -20,5 +20,5 @@ describe('watermarkJsPlusDocTool', () => {
       },
     })) as { content: unknown[] }
     expect(res.content.length).toEqual(0)
-  }, 20000)
+  })
 })
