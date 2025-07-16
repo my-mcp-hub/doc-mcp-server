@@ -1,6 +1,6 @@
 # Doc MCP Server
 
-A doc MCP Server
+A doc mcp server
 
 ## Setup
 
