@@ -17,7 +17,7 @@ const streamableClient = new StreamableHTTPClientTransport(
   new URL(baseUrl)
 )
 const client = new Client({
-  name: 'doc-mcp-client',
+  name: 'test-mcp-client',
   version: '1.0.0',
 })
 await client.connect(stdioClient)
