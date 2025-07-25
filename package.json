@@ -25,10 +25,10 @@
     "coverage": "rimraf coverage && npm run test && c8 report --reporter=html"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.16.0",
-    "algoliasearch": "^5.34.0",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "algoliasearch": "^5.34.1",
     "cheerio": "^1.1.2",
-    "dotenv": "^17.2.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "html-to-md": "^0.8.8",
     "nanoid": "^5.1.5",
