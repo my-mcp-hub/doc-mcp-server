@@ -23,10 +23,7 @@ export const config = {
   platform: 'node',
   external: [
     'yargs',
-    'node-fetch',
-    'cors',
     'express',
-    'nanoid',
     'zod',
     'dotenv',
     '@modelcontextprotocol/sdk',
