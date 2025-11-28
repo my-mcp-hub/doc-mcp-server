@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import { Client } from '@modelcontextprotocol/sdk/client/index.js'
-import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js'
 import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js'
+import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js'
 
 const stdioClient = new StdioClientTransport({
   command: 'c8',
@@ -13,9 +13,7 @@ const stdioClient = new StdioClientTransport({
 })
 
 const baseUrl = new URL('http://localhost:8401/mcp')
-const streamableClient = new StreamableHTTPClientTransport(
-  new URL(baseUrl)
-)
+const streamableClient = new StreamableHTTPClientTransport(new URL(baseUrl))
 const client = new Client({
   name: 'test-mcp-client',
   version: '1.0.0',

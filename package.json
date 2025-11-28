@@ -8,11 +8,7 @@
   "bin": {
     "doc-mcp-server": "./build/index.js"
   },
-  "files": [
-    "build",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["build", "LICENSE", "README.md"],
   "main": "build/index.js",
   "scripts": {
     "prepare": "husky",

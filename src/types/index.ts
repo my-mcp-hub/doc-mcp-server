@@ -1,2 +1,2 @@
-export * from './global'
 export * from './algolia'
+export * from './global'

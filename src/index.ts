@@ -2,7 +2,7 @@
 import 'dotenv/config'
 import yargs, { type ArgumentsCamelCase } from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import { startWebServer, startStdioServer } from '@/services'
+import { startStdioServer, startWebServer } from '@/services'
 import { getOptions } from '@/utils'
 import pkg from '../package.json' with { type: 'json' }
 

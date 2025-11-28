@@ -1,7 +1,7 @@
-import { z } from 'zod'
-import { getPagesContent, searchAlgolia } from '@/utils'
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
+import { z } from 'zod'
 import type { OptionsType } from '@/types'
+import { getPagesContent, searchAlgolia } from '@/utils'
 
 export default function register(server: McpServer, options: OptionsType) {
   server.registerTool(
