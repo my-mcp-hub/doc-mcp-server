@@ -8,7 +8,11 @@
   "bin": {
     "doc-mcp-server": "./build/index.js"
   },
-  "files": ["build", "LICENSE", "README.md"],
+  "files": [
+    "build",
+    "LICENSE",
+    "README.md"
+  ],
   "main": "build/index.js",
   "scripts": {
     "prepare": "husky",
@@ -22,11 +26,11 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n changelog-option.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.23.0",
+    "@modelcontextprotocol/sdk": "^1.24.2",
     "algoliasearch": "^5.45.0",
     "cheerio": "^1.1.2",
     "dotenv": "^17.2.3",
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "html-to-md": "^0.8.8",
     "yargs": "^17.7.2",
     "zod": "^3.25.76"
@@ -36,11 +40,11 @@
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@modelcontextprotocol/inspector": "^0.17.2",
-    "@types/express": "^5.0.5",
+    "@types/express": "^5.0.6",
     "@types/yargs": "^17.0.35",
-    "@typescript-eslint/eslint-plugin": "^8.48.0",
-    "@typescript-eslint/parser": "^8.48.0",
-    "@vitest/coverage-v8": "^4.0.14",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
+    "@vitest/coverage-v8": "^4.0.15",
     "c8": "^10.1.3",
     "compare-func": "^2.0.0",
     "concurrently": "^9.2.1",
@@ -54,12 +58,12 @@
     "globals": "^16.5.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.4",
     "rimraf": "^6.1.2",
     "tree-kill": "^1.2.2",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.14"
+    "vitest": "^4.0.15"
   },
   "repository": {
     "type": "git",
